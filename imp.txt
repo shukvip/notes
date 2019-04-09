@@ -1,0 +1,18 @@
+Cucumber supports hooks, which are blocks of code that run before or after each scenario. 
+Cucumber Hooks allows us to better manage the code workflow and helps us to reduce the code redundancy. 
+Background in Cucumber is used to define a step or series of steps which are common to all the tests in the feature file. 
+It allows you to add some context to the scenarios for a feature where it is defined. 
+Background with Hooks
+
+This is so interesting to see the working of Background with Hooks. The background is run before each of your scenarios but after any of your @Before hook.
+To get it straight, let’s assign a task to the Before & After Hookin the same test.
+@Before: Print the starting logs
+@Before: Start browser and Clear the cookies
+@After:  Close the browser
+@After: Print the closing logs
+->Selenium Grid is used with Selenium RC to execute parallel tests across different browsers and operating systems.
+WebDriver, allows test scripts to communicate directly to the browser, thereby controlling it from the OS level.
+Selenium is a free (open source) automated testing suite for web applications across different browsers and platforms
+Selenium is a collection of different tools
+Selenium IDE, a Firefox add-on that you can only use in creating relatively simple test cases and test suites
+Selenium RC allows users to use programming languages in creating complex tests
